@@ -1,0 +1,1154 @@
+[
+{
+    "name": "Mega Venusaur",
+    "id": "003-m",
+    "type":["grass","poison"],
+    "ability":["thick fat"],
+    "hiddenability": "NONE",
+    "stats":[80, 100, 123, 122, 120, 80]
+},
+{
+    "name": "Mega Charizard X",
+    "id": "006-mx",
+    "type":["fire", "dragon"],
+    "ability":["tough claws"],
+    "hiddenability": "NONE",
+    "stats":[78, 130, 111, 130, 85, 100]
+},
+{
+    "name": "Mega Charizard Y",
+    "id": "006-my",
+    "type":["fire", "flying"],
+    "ability":["drought"],
+    "hiddenability": "NONE",
+    "stats":[78, 104, 78, 159, 115, 100]
+},
+{
+    "name": "Mega Blastoise",
+    "id": "009-m",
+    "type":["water"],
+    "ability":["mega launcher"],
+    "hiddenability": "NONE",
+    "stats":[79, 103, 120, 135, 115, 78]
+},
+{
+    "name": "Mega Beedrill",
+    "id": "015-m",
+    "type":["bug", "poison"],
+    "ability":["adaptability"],
+    "hiddenability": "NONE",
+    "stats":[65, 150, 40, 15, 80, 145]
+},
+{
+    "name": "Mega Pidgeot",
+    "id": "018-m",
+    "type":["normal", "flying"],
+    "ability":["no guard"],
+    "hiddenability": "NONE",
+    "stats":[83, 80, 80, 135, 80, 121]
+},
+{
+    "name": "Alolan Rattata",
+    "id": "019-a",
+    "type":["dark", "normal"],
+    "ability":["gluttony", "hustle"],
+    "hiddenability": "thick fat",
+    "stats":[30, 56, 35, 25, 35, 72]
+},
+{
+    "name": "Alolan Raticate",
+    "id": "020-a",
+    "type":["dark", "normal"],
+    "ability":["gluttony", "hustle"],
+    "hiddenability": "thick fat",
+    "stats":[75, 71, 70, 40, 80, 77]
+},
+{
+    "name": "Alolan Raichu",
+    "id": "026-a",
+    "type":["electric", "psychic"],
+    "ability":["surge surfer"],
+    "hiddenability": "NONE",
+    "stats":[60, 85, 50, 95, 85, 110]
+},
+{
+    "name": "Alolan Sandshrew",
+    "id": "027-a",
+    "type":["ice", "steel"],
+    "ability":["snow cloak"],
+    "hiddenability": "slush rush",
+    "stats":[50, 75, 90, 10, 35, 40]
+},
+{
+    "name": "Alolan Sandslash",
+    "id": "028-a",
+    "type":["ice", "steel"],
+    "ability":["snow cloak"],
+    "hiddenability": "slush rush",
+    "stats":[75, 100, 120, 25, 65, 65]
+},
+{
+    "name": "Alolan Vulpix",
+    "id": "037-a",
+    "type":["ice"],
+    "ability":["snow cloak"],
+    "hiddenability": "snow warning",
+    "stats":[38, 41, 40, 50, 65, 65]
+},
+{
+    "name": "Alolan Ninetales",
+    "id": "038-a",
+    "type":["ice", "fairy"],
+    "ability":["snow cloak"],
+    "hiddenability": "snow warning",
+    "stats":[73, 67, 75, 81, 100, 109]
+},
+{
+    "name": "Alolan Diglett",
+    "id": "050-a",
+    "type":["ground", "steel"],
+    "ability":["sand veil", "tangling hair"],
+    "hiddenability": "sand force",
+    "stats":[10, 55, 30, 35, 45, 90]
+},
+{
+    "name": "Alolan Dugtrio",
+    "id": "051-a",
+    "type":["ground", "steel"],
+    "ability":["sand veil", "tangling hair"],
+    "hiddenability": "sand force",
+    "stats":[35, 100, 60, 50, 70, 110]
+},
+{
+    "name": "Alolan Meowth",
+    "id": "052-a",
+    "type":["dark"],
+    "ability":["pickup", "technician"],
+    "hiddenability": "rattled",
+    "stats":[40, 35, 35, 50, 40, 90]
+},
+{
+    "name": "Galarian Meowth",
+    "id": "052-g",
+    "type":["steel"],
+    "ability":["pickup", "tough claws"],
+    "hiddenability": "unnerve",
+    "stats":[50, 65, 55, 40, 40, 40]
+},
+{
+    "name": "Alolan Persian",
+    "id": "053-a",
+    "type":["dark"],
+    "ability":["fur coat", "technician"],
+    "hiddenability": "rattled",
+    "stats":[65, 60, 60, 75, 65, 115]
+},
+{
+    "name": "Mega Alakazam",
+    "id": "065-m",
+    "type":["psychic"],
+    "ability":["trace"],
+    "hiddenability": "NONE",
+    "stats":[55, 50, 65, 175, 105, 150]
+},
+{
+    "name": "Alolan Geodude",
+    "id": "074-a",
+    "type":["rock", "electric"],
+    "ability":["magnet pull", "sturdy"],
+    "hiddenability": "galvanize",
+    "stats":[40, 80, 100, 30, 30, 20]
+},
+{
+    "name": "Alolan Graveler",
+    "id": "075-a",
+    "type":["rock", "electric"],
+    "ability":["magnet pull", "sturdy"],
+    "hiddenability": "galvanize",
+    "stats":[55, 95, 115, 45, 45, 35]
+},
+{
+    "name": "Alolan Golem",
+    "id": "076-a",
+    "type":["rock", "electric"],
+    "ability":["magnet pull", "sturdy"],
+    "hiddenability": "galvanize",
+    "stats":[80, 120, 130, 55, 65, 45]
+},
+{
+    "name": "Galarian Ponyta",
+    "id": "076-g",
+    "type":["psychic"],
+    "ability":["run away", "pastel veil"],
+    "hiddenability": "anticipation",
+    "stats":[50, 85, 55, 65, 65, 90]
+},
+{
+    "name": "Galarian Rapidash",
+    "id": "077-g",
+    "type":["psychic", "fairy"],
+    "ability":["run away", "pastel veil"],
+    "hiddenability": "anticipation",
+    "stats":[65, 100, 70, 80, 80, 105]
+},
+{
+    "name": "Galarian Slowpoke",
+    "id": "079-g",
+    "type":["psychic"],
+    "ability":["gluttony", "own tempo"],
+    "hiddenability": "regenerator",
+    "stats":[90, 65, 65, 40, 40, 15]
+},
+{
+    "name": "Mega Slowbro",
+    "id": "080-m",
+    "type":["water", "psychic"],
+    "ability":["shell armor"],
+    "hiddenability": "NONE",
+    "stats":[95, 75, 180, 130, 80, 30]
+},
+{
+    "name": "Galarian Slowbro",
+    "id": "080-g",
+    "type":["poison", "psychic"],
+    "ability":["quick draw", "own tempo"],
+    "hiddenability": "regenerator",
+    "stats":[95, 100, 95, 100, 70, 30]
+},
+{
+    "name": "Galarian Farfetch'd",
+    "id": "083-g",
+    "type":["fighting"],
+    "ability":["steadfast"],
+    "hiddenability": "scrappy",
+    "stats":[52, 95, 55, 58, 62, 55]
+},
+{
+    "name": "Alolan Grimer",
+    "id": "088-a",
+    "type":["poison", "dark"],
+    "ability":["poison touch", "gluttony"],
+    "hiddenability": "power of alchemy",
+    "stats":[80, 80, 50, 40, 50, 25]
+},
+{
+    "name": "Alolan Muk",
+    "id": "089-a",
+    "type":["poison", "dark"],
+    "ability":["poison touch", "gluttony"],
+    "hiddenability": "power of alchemy",
+    "stats":[105, 105, 75, 65, 100, 50]
+},
+{
+    "name": "Mega Gengar",
+    "id": "094-m",
+    "type":["ghost", "poison"],
+    "ability":["shadow tag"],
+    "hiddenability": "NONE",
+    "stats":[60, 65, 80, 170, 95, 130]
+},
+{
+    "name": "Alolan Exeggutor",
+    "id": "103-a",
+    "type":["grass", "dragon"],
+    "ability":["frisk"],
+    "hiddenability": "harvest",
+    "stats":[95, 105, 85, 125, 75, 45]
+},
+{
+    "name": "Alolan Marowak",
+    "id": "105-a",
+    "type":["fire", "ghost"],
+    "ability":["cursed body", "lightning rod"],
+    "hiddenability": "rock head",
+    "stats":[60, 80, 110, 50, 80, 45]
+},
+{
+    "name": "Galarian Weezing",
+    "id": "110-g",
+    "type":["poison", "fairy"],
+    "ability":["levitate", "neutralizing gas"],
+    "hiddenability": "misty surge",
+    "stats":[65, 90, 120, 85, 70, 60]
+},
+{
+    "name": "Mega Kangaskhan",
+    "id": "115-m",
+    "type":["normal"],
+    "ability":["Parental Bond"],
+    "hiddenability": "NONE",
+    "stats":[105, 125, 100, 60, 100, 100]
+},
+{
+    "name": "Galarian Mr. Mime",
+    "id": "122-g",
+    "type":["psychic", "ice"],
+    "ability":["vital spirit", "screen cleaner"],
+    "hiddenability": "ice body",
+    "stats":[50, 65, 65, 90, 90, 100]
+},
+{
+    "name": "Mega Pinsir",
+    "id": "127-m",
+    "type":["bug", "flying"],
+    "ability":["aerilate"],
+    "hiddenability": "NONE",
+    "stats":[65, 155, 120, 65, 90, 105]
+},
+{
+    "name": "Mega Gyarados",
+    "id": "130-m",
+    "type":["water", "dark"],
+    "ability":["mold breaker"],
+    "hiddenability": "NONE",
+    "stats":[95, 155, 109, 70, 130, 81]
+},
+{
+    "name": "Mega Aerodactyl",
+    "id": "142-m",
+    "type":["rock", "flying"],
+    "ability":["tough claws"],
+    "hiddenability": "NONE",
+    "stats":[80, 135, 85, 70, 95, 150]
+},
+{
+    "name": "Galarian Articuno",
+    "id": "144-g",
+    "type":["psychic", "flying"],
+    "ability":["competitive"],
+    "hiddenability": "NONE",
+    "stats":[90, 85, 85, 125, 100, 95]
+},
+{
+    "name": "Galarian Zapdos",
+    "id": "145-g",
+    "type":["fighting", "flying"],
+    "ability":["defiant"],
+    "hiddenability": "NONE",
+    "stats":[90, 125, 90, 85, 90, 100]
+},
+{
+    "name": "Galarian Moltres",
+    "id": "146-g",
+    "type":["dark", "flying"],
+    "ability":["berserk"],
+    "hiddenability": "NONE",
+    "stats":[90, 85, 90, 100, 125, 90]
+},
+{
+    "name": "Mega Mewtwo X",
+    "id": "150-mx",
+    "type":["psychic", "fighting"],
+    "ability":["steadfast"],
+    "hiddenability": "NONE",
+    "stats":[106, 190, 100, 154, 100, 130]
+},
+{
+    "name": "Mega Mewtwo Y",
+    "id": "150-my",
+    "type":["psychic"],
+    "ability":["insomnia"],
+    "hiddenability": "NONE",
+    "stats":[106, 150, 70, 194, 120, 140]
+},
+{
+    "name": "Mega Ampharos",
+    "id": "181-m",
+    "type":["electric", "dragon"],
+    "ability":["mold breaker"],
+    "hiddenability": "NONE",
+    "stats":[90, 95, 105, 165, 110, 45]
+},
+{
+    "name": "Galarian Slowking",
+    "id": "199-g",
+    "type":["poison", "psychic"],
+    "ability":["curious medicine", "own tempo"],
+    "hiddenability": "regenerator",
+    "stats":[95, 65, 80, 110, 110, 30]
+},
+{
+    "name": "Mega Steelix",
+    "id": "208-m",
+    "type":["steel", "ground"],
+    "ability":["sand force"],
+    "hiddenability": "NONE",
+    "stats":[75, 125, 230, 55, 95, 30]
+},
+{
+    "name": "Mega Scizor",
+    "id": "212-m",
+    "type":["bug", "steel"],
+    "ability":["technician"],
+    "hiddenability": "NONE",
+    "stats":[70, 150, 140, 65, 100, 75]
+},
+{
+    "name": "Mega Heracross",
+    "id": "214-m",
+    "type":["bug", "fighting"],
+    "ability":["skill link"],
+    "hiddenability": "NONE",
+    "stats":[80, 185, 115, 40, 105, 75]
+},
+{
+    "name": "Galarian Corsola",
+    "id": "222-g",
+    "type":["ghost"],
+    "ability":["weak armor"],
+    "hiddenability": "cursed body",
+    "stats":[60, 55, 100, 65, 100, 30]
+},
+{
+    "name": "Mega Houndoom",
+    "id": "229-m",
+    "type":["dark", "fire"],
+    "ability":["solar power"],
+    "hiddenability": "NONE",
+    "stats":[75, 90, 90, 140, 90, 115]
+},
+{
+    "name": "Mega Tyranitar",
+    "id": "248-m",
+    "type":["rock", "dark"],
+    "ability":["sand stream"],
+    "hiddenability": "NONE",
+    "stats":[100, 164, 150, 95, 120, 71]
+},
+{
+    "name": "Mega Sceptile",
+    "id": "254-m",
+    "type":["grass", "dragon"],
+    "ability":["lightning rod"],
+    "hiddenability": "NONE",
+    "stats":[70, 110, 75, 145, 85, 145]
+},
+{
+    "name": "Mega Blaziken",
+    "id": "257-m",
+    "type":["fire", "fighting"],
+    "ability":["speed boost"],
+    "hiddenability": "NONE",
+    "stats":[80, 160, 80, 130, 80, 100]
+},
+{
+    "name": "Mega Swampert",
+    "id": "260-m",
+    "type":["water", "ground"],
+    "ability":["swift swim"],
+    "hiddenability": "NONE",
+    "stats":[100, 150, 110, 95, 110, 70]
+},
+{
+    "name": "Galarian Zigzagoon",
+    "id": "263-g",
+    "type":["dark", "normal"],
+    "ability":["pickup", "gluttony"],
+    "hiddenability": "quick feet",
+    "stats":[38, 30, 41, 30, 41, 60]
+},
+{
+    "name": "Galarian Linoone",
+    "id": "264-g",
+    "type":["dark", "normal"],
+    "ability":["pickup", "gluttony"],
+    "hiddenability": "quick feet",
+    "stats":[78, 70, 61, 50, 61, 100]
+},
+{
+    "name": "Mega Gardevoir",
+    "id": "282-m",
+    "type":["psychic", "fairy"],
+    "ability":["pixilate"],
+    "hiddenability": "NONE",
+    "stats":[68, 85, 65, 165, 135, 100]
+},
+{
+    "name": "Mega Sableye",
+    "id": "302-m",
+    "type":["dark", "ghost"],
+    "ability":["magic bounce"],
+    "hiddenability": "NONE",
+    "stats":[50, 85, 125, 85, 115, 20]
+},
+{
+    "name": "Mega Mawile",
+    "id": "303-m",
+    "type":["steel", "fairy"],
+    "ability":["huge power"],
+    "hiddenability": "NONE",
+    "stats":[50, 105, 125, 55, 95, 50]
+},
+{
+    "name": "Mega Aggron",
+    "id": "306-m",
+    "type":["steel"],
+    "ability":["filter"],
+    "hiddenability": "NONE",
+    "stats":[70, 140, 230, 60, 80, 50]
+},
+{
+    "name": "Mega Medicham",
+    "id": "308-m",
+    "type":["fighting", "psychic"],
+    "ability":["pure power"],
+    "hiddenability": "NONE",
+    "stats":[60, 100, 85, 80, 85, 100]
+},
+{
+    "name": "Mega Manectric",
+    "id": "310-m",
+    "type":["electric"],
+    "ability":["intimidate"],
+    "hiddenability": "NONE",
+    "stats":[70, 75, 80, 135, 80, 135]
+},
+{
+    "name": "Mega Sharpedo",
+    "id": "319-m",
+    "type":["water", "dark"],
+    "ability":["strong jaw"],
+    "hiddenability": "NONE",
+    "stats":[70, 140, 70, 110, 65, 105]
+},
+{
+    "name": "Mega Camerupt",
+    "id": "323-m",
+    "type":["fire", "ground"],
+    "ability":["sheer force"],
+    "hiddenability": "NONE",
+    "stats":[70, 120, 100, 145, 105, 20]
+},
+{
+    "name": "Mega Altaria",
+    "id": "334-m",
+    "type":["dragon", "fairy"],
+    "ability":["pixilate"],
+    "hiddenability": "NONE",
+    "stats":[75, 110, 110, 100, 105, 80]
+},
+{
+    "name": "Sunny Form",
+    "id": "351-s",
+    "type":["fire"],
+    "ability":["forecast"],
+    "hiddenability": "NONE",
+    "stats":[70, 70, 70, 70, 70, 70]
+},
+{
+    "name": "Rainy Form",
+    "id": "351-r",
+    "type":["water"],
+    "ability":["forecast"],
+    "hiddenability": "NONE",
+    "stats":[70, 70, 70, 70, 70, 70]
+},
+{
+    "name": "Snowy Form",
+    "id": "351-i",
+    "type":["ice"],
+    "ability":["forecast"],
+    "hiddenability": "NONE",
+    "stats":[70, 70, 70, 70, 70, 70]
+},
+{
+    "name": "Mega Banette",
+    "id": "354-m",
+    "type":["ghost"],
+    "ability":["prankster"],
+    "hiddenability": "NONE",
+    "stats":[64, 165, 75, 93, 83, 75]
+},
+{
+    "name": "Mega Absol",
+    "id": "359-m",
+    "type":["dark"],
+    "ability":["magic bounce"],
+    "hiddenability": "NONE",
+    "stats":[65, 150, 60, 115, 60, 115]
+},
+{
+    "name": "Mega Glalie",
+    "id": "362-m",
+    "type":["ice"],
+    "ability":["refrigerate"],
+    "hiddenability": "NONE",
+    "stats":[80, 120, 80, 120, 80, 100]
+},
+{
+    "name": "Mega Salamence",
+    "id": "373-m",
+    "type":["dragon", "flying"],
+    "ability":["aerilate"],
+    "hiddenability": "NONE",
+    "stats":[95, 145, 130, 120, 90, 120]
+},
+{
+    "name": "Mega Metagross",
+    "id": "376-m",
+    "type":["steel", "psychic"],
+    "ability":["tough claws"],
+    "hiddenability": "NONE",
+    "stats":[80, 145, 150, 105, 110, 110]
+},
+{
+    "name": "Mega Latias",
+    "id": "380-m",
+    "type":["dragon", "psychic"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[80, 100, 120, 140, 150, 110]
+},
+{
+    "name": "Mega Latios",
+    "id": "381-m",
+    "type":["dragon", "psychic"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[80, 130, 100, 160, 120, 110]
+},
+{
+    "name": "Primal Kyogre",
+    "id": "382-p",
+    "type":["water"],
+    "ability":["primordial sea"],
+    "hiddenability": "NONE",
+    "stats":[100, 150, 90, 180, 160, 90]
+},
+{
+    "name": "Primal Groudon",
+    "id": "383-p",
+    "type":["ground", "fire"],
+    "ability":["desolate land"],
+    "hiddenability": "NONE",
+    "stats":[100, 180, 160, 150, 90, 90]
+},
+{
+    "name": "Mega Rayquaza",
+    "id": "384-m",
+    "type":["dragon", "flying"],
+    "ability":["delta stream"],
+    "hiddenability": "NONE",
+    "stats":[105, 180, 100, 180, 100, 115]
+},
+{
+    "name": "Attack Forme",
+    "id": "386-a",
+    "type":["psychic"],
+    "ability":["pressure"],
+    "hiddenability": "NONE",
+    "stats":[50, 180, 20, 180, 20, 150]
+},
+{
+    "name": "Defense Forme",
+    "id": "386-d",
+    "type":["psychic"],
+    "ability":["pressure"],
+    "hiddenability": "NONE",
+    "stats":[50, 70, 160, 70, 160, 90]
+},
+{
+    "name": "Speed Forme",
+    "id": "386-s",
+    "type":["psychic"],
+    "ability":["pressure"],
+    "hiddenability": "NONE",
+    "stats":[50, 95, 90, 95, 90, 180]
+},
+{
+    "name": "Sandy Cloak",
+    "id": "413-s",
+    "type":["bug", "ground"],
+    "ability":["anticipation"],
+    "hiddenability": "overcoat",
+    "stats":[60, 79, 105, 59, 85, 36]
+},
+{
+    "name": "Trash Cloak",
+    "id": "413-t",
+    "type":["bug", "steel"],
+    "ability":["anticipation"],
+    "hiddenability": "overcoat",
+    "stats":[60, 69, 95, 69, 95, 36]
+},
+{
+    "name": "Mega Lopunny",
+    "id": "428-m",
+    "type":["normal", "fighting"],
+    "ability":["scrappy"],
+    "hiddenability": "NONE",
+    "stats":[65, 136, 94, 54, 96, 135]
+},
+{
+    "name": "Mega Garchomp",
+    "id": "445-m",
+    "type":["dragon", "ground"],
+    "ability":["sand force"],
+    "hiddenability": "NONE",
+    "stats":[108, 170, 115, 120, 95, 92]
+},
+{
+    "name": "Mega Lucario",
+    "id": "448-m",
+    "type":["fighting", "steel"],
+    "ability":["adaptability"],
+    "hiddenability": "NONE",
+    "stats":[70, 145, 88, 140, 70, 112]
+},
+{
+    "name": "Mega Abomasnow",
+    "id": "460-m",
+    "type":["grass", "ice"],
+    "ability":["snow warning"],
+    "hiddenability": "NONE",
+    "stats":[90, 132, 105, 132, 105, 30]
+},
+{
+    "name": "Mega Gallade",
+    "id": "475-m",
+    "type":["psychic", "fighting"],
+    "ability":["inner focus"],
+    "hiddenability": "NONE",
+    "stats":[68, 165, 95, 65, 115, 100]
+},
+{
+    "name": "Heat Rotom",
+    "id": "479-h",
+    "type":["electric", "fire"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[50, 65, 107, 105, 107, 86]
+},
+{
+    "name": "Wash Rotom",
+    "id": "479-w",
+    "type":["electric", "water"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[50, 65, 107, 105, 107, 86]
+},
+{
+    "name": "Frost Rotom",
+    "id": "479-f",
+    "type":["electric", "ice"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[50, 65, 107, 105, 107, 86]
+},
+{
+    "name": "Fan Rotom",
+    "id": "479-s",
+    "type":["electric", "flying"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[50, 65, 107, 105, 107, 86]
+},
+{
+    "name": "Mow Rotom",
+    "id": "479-m",
+    "type":["electric", "grass"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[50, 65, 107, 105, 107, 86]
+},
+{
+    "name": "Origin Forme",
+    "id": "487-o",
+    "type":["ghost", "dragon"],
+    "ability":["levitate"],
+    "hiddenability": "NONE",
+    "stats":[150, 120, 100, 120, 100, 90]
+},
+{
+    "name": "Sky Forme",
+    "id": "492-s",
+    "type":["grass", "flying"],
+    "ability":["serene grace"],
+    "hiddenability": "NONE",
+    "stats":[100, 103, 75, 120, 75, 127]
+},
+{
+    "name": "Mega Audino",
+    "id": "531-m",
+    "type":["normal", "fairy"],
+    "ability":["healer"],
+    "hiddenability": "NONE",
+    "stats":[103, 60, 126, 80, 126, 50]
+},
+{
+    "name": "Blue-Striped Form",
+    "id": "550-b",
+    "type":["water"],
+    "ability":["rock head", "adaptability"],
+    "hiddenability": "mold breaker",
+    "stats":[70, 92, 65, 80, 55, 98]
+},
+{
+    "name": "Galarian Darumaka",
+    "id": "554-g",
+    "type":["ice"],
+    "ability":["hustle"],
+    "hiddenability": "inner focus",
+    "stats":[70, 90, 45, 15, 45, 50]
+},
+{
+    "name": "Zen Mode",
+    "id": "555-z",
+    "type":["fire", "psychic"],
+    "ability":["sheer force"],
+    "hiddenability": "zen mode",
+    "stats":[105, 30, 105, 140, 105, 55]
+},
+{
+    "name": "Galarian Darmanitan",
+    "id": "555-g",
+    "type":["ice"],
+    "ability":["gorilla tactics"],
+    "hiddenability": "zen mode",
+    "stats":[105, 140, 55, 30, 55, 95]
+},
+{
+    "name": "Galarian Zen Mode",
+    "id": "555-gz",
+    "type":["ice", "fire"],
+    "ability":["gorilla tactics"],
+    "hiddenability": "zen mode",
+    "stats":[105, 160, 55, 30, 55, 135]
+},
+{
+    "name": "Galarian Yamask",
+    "id": "562-g",
+    "type":["ground", "ghost"],
+    "ability":["wandering spirit"],
+    "hiddenability": "NONE",
+    "stats":[38, 55, 85, 30, 65, 30]
+},
+{
+    "name": "Galarian Stunfisk",
+    "id": "618-g",
+    "type":["ground", "steel"],
+    "ability":["mimicry"],
+    "hiddenability": "NONE",
+    "stats":[109, 81, 99, 66, 84, 32]
+},
+{
+    "name": "Tornadus Therian",
+    "id": "641-s",
+    "type":["flying"],
+    "ability":["regenerator"],
+    "hiddenability": "NONE",
+    "stats":[79, 100, 80, 110, 90, 121]
+},
+{
+    "name": "Thundurus Therian",
+    "id": "642-s",
+    "type":["electric", "flying"],
+    "ability":["volt absorb"],
+    "hiddenability": "NONE",
+    "stats":[79, 105, 70, 145, 80, 101]
+},
+{
+    "name": "Landorus Therian",
+    "id": "645-s",
+    "type":["ground", "flying"],
+    "ability":["intimidate"],
+    "hiddenability": "NONE",
+    "stats":[89, 145, 90, 105, 80, 91] 
+},
+{
+    "name": "Black Kyurem",
+    "id": "646-b",
+    "type":["dragon", "ice"],
+    "ability":["teravolt"],
+    "hiddenability": "NONE",
+    "stats":[125, 170, 100, 120, 90, 95] 
+},
+{
+    "name": "White Kyurem",
+    "id": "646-w",
+    "type":["dragon", "ice"],
+    "ability":["turboblaze"],
+    "hiddenability": "NONE",
+    "stats":[125, 120, 90, 170, 100, 95]
+},
+{
+    "name": "Resolute Form",
+    "id": "647-r",
+    "type":["water", "fighting"],
+    "ability":["justified"],
+    "hiddenability": "NONE",
+    "stats":[91, 72, 90, 129, 90, 108]
+},
+{
+    "name": "Pirouette Forme",
+    "id": "648-p",
+    "type":["normal", "fighting"],
+    "ability":["serene grace"],
+    "hiddenability": "NONE",
+    "stats":[100, 128, 90, 77, 77, 128]
+},
+{
+    "name": "Ash Greninja",
+    "id": "658-a",
+    "type":["water", "dark"],
+    "ability":["battle bond"],
+    "hiddenability": "NONE",
+    "stats":[72, 145, 67, 153, 71, 132] 
+},
+{
+    "name": "Female Meowstic",
+    "id": "678-f",
+    "type":["psychic"],
+    "ability":["keen eye", "infiltrator"],
+    "hiddenability": "competitive",
+    "stats":[74, 48, 76, 83, 81, 104] 
+},
+{
+    "name": "Blade Forme",
+    "id": "681",
+    "type":["steel", "ghost"],
+    "ability":["stance change"],
+    "hiddenability": "NONE",
+    "stats":[60, 140, 50, 140, 50, 60] 
+},
+{
+    "name": "Small Pumpkaboo",
+    "id": "710-s",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[44, 66, 70, 44, 55, 56] 
+},
+{
+    "name": "Large Pumpkaboo",
+    "id": "710-l",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[54, 66, 70, 44, 55, 46] 
+},
+{
+    "name": "Super Pumpkaboo",
+    "id": "710",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[59, 66, 70, 44, 55, 41] 
+},
+{
+    "name": "Small Gourgeist",
+    "id": "711",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[55, 85, 122, 58, 75, 99] 
+},
+{
+    "name": "Large Gourgeist",
+    "id": "711",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[75, 95, 122, 58, 75, 69] 
+},
+{
+    "name": "Super Gourgeist",
+    "id": "711",
+    "type":["ghost", "grass"],
+    "ability":["pickup", "frisk"],
+    "hiddenability": "insomnia",
+    "stats":[85, 100, 122, 58, 75, 54] 
+},
+{
+    "name": "10% Forme",
+    "id": "718-10",
+    "type":["dragon", "ground"],
+    "ability":["aura break", "power construct"],
+    "hiddenability": "NONE",
+    "stats":[54, 100, 71, 61, 85, 115]
+},
+{
+    "name": "Complete Forme",
+    "id": "718-c",
+    "type":["dragon", "ground"],
+    "ability":["power construct"],
+    "hiddenability": "NONE",
+    "stats":[216, 100, 121, 91, 95, 85]
+},
+{
+    "name": "Mega Diancie",
+    "id": "719-m",
+    "type":["rock", "fairy"],
+    "ability":["magic bounce"],
+    "hiddenability": "NONE",
+    "stats":[50, 160, 110, 160, 110, 110]
+},
+{
+    "name": "Hoopa Unbound",
+    "id": "720-u",
+    "type":["psychic", "dark"],
+    "ability":["magician"],
+    "hiddenability": "NONE",
+    "stats":[80, 160, 60, 170, 130, 80]
+},
+{
+    "name": "Pom-Pom Style",
+    "id": "741-p",
+    "type":["electric", "flying"],
+    "ability":["dancer"],
+    "hiddenability": "NONE",
+    "stats":[75, 70, 70, 98, 70, 93]
+},
+{
+    "name": "Pa'u Style",
+    "id": "741-pau",
+    "type":["psychic", "flying"],
+    "ability":["dancer"],
+    "hiddenability": "NONE",
+    "stats":[75, 70, 70, 98, 70, 93]
+},
+{
+    "name": "Sensu Style",
+    "id": "741-s",
+    "type":["ghost", "flying"],
+    "ability":["dancer"],
+    "hiddenability": "NONE",
+    "stats":[75, 70, 70, 98, 70, 93]
+},
+{
+    "name": "Own Tempo Rockruff",
+    "id": "744",
+    "type":["rock"],
+    "ability":["own tempo"],
+    "hiddenability": "NONE",
+    "stats":[45, 65, 40, 30, 40, 60]
+},
+{
+    "name": "Midnight Form",
+    "id": "745-m",
+    "type":["rock"],
+    "ability":["keen eye", "vital spirit"],
+    "hiddenability": "no guard",
+    "stats":[85, 115, 75, 55, 75, 82]
+},
+{
+    "name": "Dusk Form",
+    "id": "745-d",
+    "type":["rock"],
+    "ability":["tough claws"],
+    "hiddenability": "NONE",
+    "stats":[75, 117, 65, 55, 65, 110]
+},
+{
+    "name": "School Form",
+    "id": "746-s",
+    "type":["water"],
+    "ability":["schooling"],
+    "hiddenability": "NONE",
+    "stats":[45, 140, 130, 140, 135, 30]
+},
+{
+    "name": "Core Form",
+    "id": "774-r",
+    "type":["rock", "flying"],
+    "ability":["shields down"],
+    "hiddenability": "NONE",
+    "stats": [60, 100, 60, 100, 60, 120]
+},
+{
+    "name": "Dusk Mane Necrozma",
+    "id": "800-dm",
+    "type":["psychic", "steel"],
+    "ability":["prism armor"],
+    "hiddenability": "NONE",
+    "stats":[97, 157, 127, 113, 109, 77]
+},
+{
+    "name": "Dawn Wings Necrozma",
+    "id": "800-dw",
+    "type":["psychic", "ghost"],
+    "ability":["prism armor"],
+    "hiddenability": "NONE",
+    "stats":[97, 113, 109, 157, 127, 77]
+},
+{
+    "name": "Ultra Necrozma",
+    "id": "800-u",
+    "type":["psychic", "dragon"],
+    "ability":["neuroforce"],
+    "hiddenability": "NONE",
+    "stats":[97, 167, 97, 167, 97, 129]
+},
+{
+    "name": "Amped Form",
+    "id": "849",
+    "type":["electric", "poison"],
+    "ability":["punk rock", "plus"],
+    "hiddenability": "technician",
+    "stats":[75, 98, 70, 114, 70, 75]
+},
+{
+    "name": "Noice Face",
+    "id": "875",
+    "type":["ice"],
+    "ability":["ice face"],
+    "hiddenability": "NONE",
+    "stats":[75, 80, 70, 65, 50, 130]
+},
+{
+    "name": "Female Indeedee",
+    "id": "876-f",
+    "type":["psychic", "normal"],
+    "ability":["own tempo", "synchronize"],
+    "hiddenability": "psychic surge",
+    "stats":[70, 55, 65, 95, 105, 85]
+},
+{
+    "name": "Hangry Mode",
+    "id": "877-h",
+    "type":["electric", "dark"],
+    "ability":["hunger switch"],
+    "hiddenability": "NONE",
+    "stats":[58, 95, 58, 70, 58, 97]
+},
+{
+    "name": "Crowned Sword",
+    "id": "888-c",
+    "type":["fairy", "steel"],
+    "ability":["intrepid sword"],
+    "hiddenability": "NONE",
+    "stats":[92, 170, 115, 80, 115, 148]
+},
+{
+    "name": "Crowned Shield",
+    "id": "889-c",
+    "type":["fighting", "steel"],
+    "ability":["dauntless shield"],
+    "hiddenability": "NONE",
+    "stats":[92, 130, 145, 80, 145, 128]
+},
+{
+    "name": "Rapid Strike Style",
+    "id": "892",
+    "type":["fighting", "water"],
+    "ability":["unseen fist"],
+    "hiddenability": "NONE",
+    "stats":[100, 130, 100, 63, 60, 97]
+},
+{
+    "name": "Ice Rider Calyrex",
+    "id": "898-i",
+    "type":["psychic", "ice"],
+    "ability":["as one"],
+    "hiddenability": "NONE",
+    "stats":[100, 165, 150, 85, 130, 50]
+},
+{
+    "name": "Shadow Rider Calyrex",
+    "id": "898-s",
+    "type":["psychic", "ghost"],
+    "ability":["as one"],
+    "hiddenability": "NONE",
+    "stats":[100, 85, 80, 165, 100, 150]
+}
+]
