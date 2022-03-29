@@ -1,6 +1,5 @@
 # Welcome to Pokégle!
 
-## https://sawri.github.io/pokegle/
 
 Have you ever wanted to quickly look up a pokémon's stats? Maybe to see if your 'mon would take its turn first, or to see if the opponent has a troublesome ability? Well, rejoice! Pokégle is here for you!
 
