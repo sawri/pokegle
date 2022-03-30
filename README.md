@@ -11,6 +11,10 @@ Please let me know if there are any features you would like to see added, or if 
 
 Enjoy using Pokégle!
 
+Note: Pokegle was meant for those already familiar with Pokemon to use to quickly view competitive information. However, if you're unfamiliar with anything, I've provided a key! :
+
+![key](https://user-images.githubusercontent.com/37609800/160754397-b3b8da6b-6438-434c-9e75-602b5cf96b8f.png)
+
 
 # What I Learned From Making This Website:
 
