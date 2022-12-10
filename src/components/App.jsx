@@ -8,6 +8,7 @@ import PokeSearch from "./PokeSearch.jsx";
 import AbilSearch from "./AbilSearch.jsx";
 import AllPokemon from "./AllPokemon.jsx";
 import PinsContextProvider from "../contexts/PinsContext.js";
+import Moves from "./Moves.jsx";
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,9 @@ function App() {
       </Route>
       <Route path="/allpokemon">
         <AllPokemon />
+      </Route>
+      <Route path="/moves">
+        <Moves />
       </Route>
     </Switch>
   </PinsContextProvider>

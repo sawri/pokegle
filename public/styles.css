@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+.ability:hover {
+  background-color: lightgray !important;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.hiddenAbility:hover {
+  background-color: darkorchid !important;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
 .abilDesc {
   padding: 20px;
   font-family: 'Press Start 2P', cursive !important;
@@ -17,12 +27,7 @@
 }
 
 
-.choiceBtn {
-  width: 120px;
-  color: #ffce6d;
-  text-shadow: 0.088rem 0.088rem 0.125rem black;
-  font-family: 'Press Start 2P', cursive !important;
-}
+
 
 .header {
     background-color: #ee5050;
@@ -30,6 +35,10 @@
     width: 100%;
     margin-top: 0px;
     margin-bottom: 40px;
+}
+
+.texty {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .logo {
@@ -57,7 +66,10 @@
 .searchinfo {
   margin-top: 80px;
 }
-
+.pokemonIcon {
+  width: 110px;
+  height: 110px;
+}
 .typeIcon {
   width: 30px;
   height: 30px;
@@ -69,85 +81,70 @@
   grid-row-gap: 30px;
   justify-content: center;
 }
-.parent {
+   .pokeIcon { grid-area: 1 / 1 / 2 / 2; }
+  .pinButton { grid-area: 1 / 2 / 2 / 5; }
+  .pokeName { 
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    grid-area: 2 / 1 / 3 / 3; 
+  }
+  
+  .pokeAbils { grid-area: 3 / 1 / 4 / 5; } 
+
+.stats {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 0.5fr repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
+  grid-row-gap: 0px;
+} 
+.hp { grid-area: 1 / 1 / 2 / 2; }
+.hpVal { grid-area: 1 / 2 / 2 / 6; }
+.attack { grid-area: 2 / 1 / 3 / 2; }
+.attackVal { grid-area: 2 / 2 / 3 / 6; }
+.defense { grid-area: 3 / 1 / 4 / 2; }
+.defenseVal { grid-area: 3 / 2 / 4 / 6; }
+.specAtk { grid-area: 4 / 1 / 5 / 2; }
+.specAtkVal { grid-area: 4 / 2 / 5 / 6; }
+.specDef { grid-area: 5 / 1 / 6 / 2; }
+.specDefVal { grid-area: 5 / 2 / 6 / 6; }
+.speed { grid-area: 6 / 1 / 7 / 2; }
+.speedVal { grid-area: 6 / 2 / 7 / 6; } 
+  
+.miniPokeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(2, 0.5fr) repeat(9, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
   grid-row-gap: 0px;
   align-items: center;
   }
   
-  /* .pokeIcon { grid-area: 1 / 1 / 2 / 2; }
-  .pokeName { grid-area: 2 / 1 / 3 / 2; }
-  .types { grid-area: 2 / 2 / 3 / 4; }
-  .pokeAbils { grid-area: 3 / 1 / 4 / 4; }
-  .div5 { grid-area: 1 / 2 / 2 / 4; }  */
+  .miniPokeIcon { grid-area: 1 / 1 / 2 / 2; }
+  .miniPokeName { grid-area: 1 / 2 / 2 / 3; }
+  .miniPokeType1 { grid-area: 1 / 3 / 2 / 4; }
+  .miniPokeType2 { grid-area: 1 / 4 / 2 / 5; }
+  .miniPokeAbil1 { grid-area: 1 / 5 / 2 / 6; }
+  .miniPokeAbil2 { grid-area: 1 / 7 / 2 / 8; }
+  .miniPokeHA { grid-area: 1 / 6 / 2 / 7; }
+  .miniPokeHP { grid-area: 1 / 8 / 2 / 9; }
+  .miniPokeAtk { grid-area: 1 / 9 / 2 / 10; }
+  .miniPokeDef { grid-area: 1 / 10 / 2 / 11; }
+  .miniPokeSpa { grid-area: 1 / 11 / 2 / 12; }
+  .miniPokeSpd { grid-area: 1 / 12 / 2 / 13; }
+  .miniPokeSpe { grid-area: 1 / 13 / 2 / 14; } 
 
-  .pokeIcon { grid-area: 1 / 1 / 2 / 2; }
-  .pinButton { grid-area: 1 / 2 / 2 / 5; }
-  .pokeName { 
-    color: black;
-    
-    grid-area: 2 / 1 / 3 / 3; 
+
+
+
+@media screen and (max-width: 500px) {
+  .pkmnGrid {
+    grid-template-columns: repeat(1, minmax(350px, 650px));
   }
-  .types { grid-area: 2 / 3 / 3 / 5; }
-  .pokeAbils { grid-area: 3 / 1 / 4 / 5; } 
-
-  .stats {
-    display: grid;
-    grid-template-columns: 0.5fr repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  } 
-  .hp { grid-area: 1 / 1 / 2 / 2; }
-  .hpVal { grid-area: 1 / 2 / 2 / 6; }
-  .attack { grid-area: 2 / 1 / 3 / 2; }
-  .attackVal { grid-area: 2 / 2 / 3 / 6; }
-  .defense { grid-area: 3 / 1 / 4 / 2; }
-  .defenseVal { grid-area: 3 / 2 / 4 / 6; }
-  .specAtk { grid-area: 4 / 1 / 5 / 2; }
-  .specAtkVal { grid-area: 4 / 2 / 5 / 6; }
-  .specDef { grid-area: 5 / 1 / 6 / 2; }
-  .specDefVal { grid-area: 5 / 2 / 6 / 6; }
-  .speed { grid-area: 6 / 1 / 7 / 2; }
-  .speedVal { grid-area: 6 / 2 / 7 / 6; } 
-  
-  .miniPokeGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) repeat(2, 0.5fr) repeat(9, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 1px;
-    grid-row-gap: 0px;
-    align-items: center;
-    }
-    
-    .miniPokeIcon { grid-area: 1 / 1 / 2 / 2; }
-    .miniPokeName { grid-area: 1 / 2 / 2 / 3; }
-    .miniPokeType1 { grid-area: 1 / 3 / 2 / 4; }
-    .miniPokeType2 { grid-area: 1 / 4 / 2 / 5; }
-    .miniPokeAbil1 { grid-area: 1 / 5 / 2 / 6; }
-    .miniPokeAbil2 { grid-area: 1 / 7 / 2 / 8; }
-    .miniPokeHA { grid-area: 1 / 6 / 2 / 7; }
-    .miniPokeHP { grid-area: 1 / 8 / 2 / 9; }
-    .miniPokeAtk { grid-area: 1 / 9 / 2 / 10; }
-    .miniPokeDef { grid-area: 1 / 10 / 2 / 11; }
-    .miniPokeSpa { grid-area: 1 / 11 / 2 / 12; }
-    .miniPokeSpd { grid-area: 1 / 12 / 2 / 13; }
-    .miniPokeSpe { grid-area: 1 / 13 / 2 / 14; } 
-
-
-
-
-  @media screen and (max-width: 500px) {
-    .pkmnGrid {
-      grid-template-columns: repeat(1, minmax(350px, 650px));
-    }
-    .pinBtnMobile {
-      display: block;
-    }
+  .pinBtnMobile {
+    display: block;
   }
-  @media screen and (min-width: 501px) {
-  
-  }
+}
+@media screen and (min-width: 501px) {
+
+}

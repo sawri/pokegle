@@ -1,4 +1,7 @@
 .choiceBtn {
+    width: 120px;
+    text-shadow: 0.088rem 0.088rem 0.125rem black;
+    font-family: 'Press Start 2P', cursive !important;
     width: 150px;
     font-size: 15px;
     display: inline-block;

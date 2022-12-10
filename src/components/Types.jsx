@@ -5,8 +5,8 @@ function Types(props) {
     const types = props.pokeTypes.map((type, ind) =>
         <img key={ind} alt={type} className="typeIcon" src={"/imgs/types/" + type + ".png"}/>
     );
-    return <div>
-        <Stack direction="row" style={{marginBottom: "20px"}} spacing={2}>
+    return <div style={{display: "flex", justifyContent: "center"}}>
+        <Stack direction="row" spacing={2}>
         {types}
         </Stack>   
     </div>

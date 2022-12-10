@@ -8,11 +8,13 @@ import { Tabs } from "@mui/material";
 import PropTypes from 'prop-types';
 import { Tab } from "@mui/material";
 import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import { NavLink } from 'react-router-dom';
 import Fab from '@mui/material/Fab';
 import PushPinIcon from '@mui/icons-material/PushPin';
 import { useParams } from 'react-router-dom';
 import { PinsContext } from '../contexts/PinsContext.js';
-
+import classes from './abilsMovesStats.css';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -47,8 +49,10 @@ return {
 }
 function Pokemon(props) {
     const [value, setValue] = useState(0);
+    const [currentInfo, setCurrentInfo] = useState("stats");
     const params = useParams();
     const {pins, dispatch} = useContext(PinsContext);
+    
     /*find the pokemon the user wanted in the array*/
     const poke = pokes.find(function (newArr) {
         if (props.desiredPoke === "none") {
@@ -62,10 +66,12 @@ function Pokemon(props) {
 
     /*changes the value based on which tab the user clicks or taps*/
     const handleChange = (event, newValue) => {
-        setValue(newValue);
-        
+        setValue(newValue);  
     };
 
+    const changeInfoTab = (button) => {
+        setCurrentInfo(button);
+    }
     const handleClick = () => {
         if (props.pinBtnColor === "default") {
             dispatch({type: 'ADD_PIN', pin: poke.name})
@@ -98,16 +104,33 @@ function Pokemon(props) {
         {formNameTabs}
         </Tabs>
         <TabPanel value={value} index={0}>
-            <div className="parent" style={{marginLeft: "0px", border: "1px solid black", borderRadius: "0.35rem", padding: "10px"}}>
-            <div className="pokeIcon"><img src={"https://www.serebii.net/pokedex-swsh/icon/" + poke.id + ".png"} alt="pokepic"/></div>
-            <div className="pinButton"></div>
-            <div className="pokeName">{poke.name} </div>
-            <div className="types"><Types key={poke.type} pokeTypes={poke.type} /></div>
-            <Abilities key={poke.id} pokeAbilities={poke.ability} pokeHA={poke.hiddenability}/>
-            <Stats key={poke.stats} stats={poke.stats} />
+            <div className="infogrid" style={{marginLeft: "0px", border: "1px solid black", borderRadius: "0.35rem", padding: "10px"}}>
+                <Types id={poke.id} key={poke.type} pokeTypes={poke.type} />
+                <div className="iconandtypes" style={{display: "flex", justifyContent: "center"}}>
+                    <img className="pokemonIcon" src={"/imgs/sprites/" + poke.id + ".png"} alt="pokepic"/>
+                </div>
+                <div className="pinButton"></div>
+                <div className="pokeName" style={{textAlign: "center"}}>{poke.name} </div>
+                
+                <Box sx={{ flexGrow: 3 }}>
+                    <Grid container alignItems="center" justifyContent="space-evenly" spacing={2}>
+                    <Grid item>
+                        <p className="infoBtn statsBtn" activeClassName={classes.active} onClick={() => changeInfoTab("stats")} style={{textDecoration: "none"}}>STATS</p>
+                    </Grid>
+                    <Grid item>
+                        <p className="infoBtn abilBtn" activeClassName={classes.active} onClick={() => changeInfoTab("abilities")} style={{textDecoration: "none"}} to="/abilities">ABILITIES</p>
+                    </Grid>
+                    <Grid item>
+                        <p className="infoBtn movesBtn" activeClassName={classes.active} onClick={() => changeInfoTab("moves")} style={{textDecoration: "none"}} to="/moves">MOVES</p>
+                    </Grid>
+                    </Grid>
+                </Box>
+
+                {currentInfo === "stats" && <div className="pokeStats"><Stats key={poke.stats} stats={poke.stats} /></div>}
+                {currentInfo === "abilities" && <div className="abilities"><Abilities key={poke.id} pokeAbilities={poke.ability} pokeHA={poke.hiddenability}/></div>}
             </div>
         </TabPanel>
-       {formContentTabs}
+        {formContentTabs}
        <Fab size="small" className="pinBtnMobile" style={{display: "none"}}color={props.pinBtnColor} aria-label="add" onClick={handleClick}>
             <PushPinIcon /> 
         </Fab> 

@@ -38,10 +38,10 @@ function PokeTable(props) {
         field: "type2",
         headerName: "type 2",
         width: 90,
-        align: "left",
+        align: "center",
         sortable: false,
         renderCell: (params) => (
-        <img className="typeIcon" src={"/imgs/types/" + params.value + ".png"} alt={params.value} />
+        params.value !== " " ? <img className="typeIcon" src={"/imgs/types/" + params.value + ".png"} alt={params.value} /> : <p>-</p>
         )
     },
     {

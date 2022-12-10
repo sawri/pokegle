@@ -11,7 +11,7 @@ function Form(props) {
 
     return <div className="parent" style={{marginLeft: "0px", border: "1px solid black", padding: "10px"}}>
             
-    <div className="pokeIcon"><img src={"https://www.serebii.net/pokedex-swsh/icon/" + form.id + ".png"} alt="BigCo Inc. logo"/></div>
+    <div className="pokeIcon"><img src={"/imgs/sprites/" + form.id + ".png"} alt="BigCo Inc. logo"/></div>
     <div className="pinButton"></div>
     <div className="pokeName">{form.name}</div>
     <div className="types"><Types key={form.type} pokeTypes={form.type} /></div>

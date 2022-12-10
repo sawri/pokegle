@@ -15,12 +15,12 @@ const Item = styled(Paper)(({ theme }) => ({
 function Abilities(props) {
     const history = useHistory();
     const abilities = props.pokeAbilities.map((ability, ind) =>
-        <Item key={ind} style={{cursor: "pointer"}} onClick={() => history.push("/abilities/" + ability)}>{ability}</Item>
+        <Item className="ability" key={ind} style={{cursor: "pointer"}} onClick={() => history.push("/abilities/" + ability)}>{ability}</Item>
     );
 
     return <div className="pokeAbils" style={{display: "inline-block"}}>      
             {abilities}
-            {props.pokeHA !== "NONE" && <Item onClick={() => history.push("/abilities/" + props.pokeHA)} style={{backgroundColor: '#d28cd8', cursor: "pointer"}}>{props.pokeHA}</Item>}
+            {props.pokeHA !== "NONE" && <Item className="hiddenAbility" onClick={() => history.push("/abilities/" + props.pokeHA)} style={{backgroundColor: '#d28cd8', cursor: "pointer"}}>{props.pokeHA}</Item>}
     </div>
 }
 

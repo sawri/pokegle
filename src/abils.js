@@ -59,7 +59,7 @@ const abils = [
   {
     name: "battle bond",
     description:
-      "Defeating an opposing Pokémon strengthens the Pokémon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.",
+      "Boosts stats for the first turn after knocking out an opponent.",
   },
   {
     name: "beast boost",
@@ -154,7 +154,7 @@ const abils = [
   {
     name: "dauntless shield",
     description:
-      "Boosts the Pokémon's Defense stat when the Pokémon enters a battle. ",
+      "Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle. ",
   },
   {
     name: "dazzling",
@@ -423,7 +423,7 @@ const abils = [
   {
     name: "intrepid sword",
     description:
-      "Boosts the Pokémon's Attack stat when the Pokémon enters a battle. ",
+      "Boosts the Pokémon's Attack stat the first time the Pokémon enters a battle. ",
   },
   {
     name: "iron barbs",
@@ -454,7 +454,7 @@ const abils = [
   {
     name: "libero",
     description:
-      "Changes the Pokémon's type to the type of the move it's about to use.",
+      "Changes the Pokémon's type to the type of the move it's about to use. Works the first time the Pokemon enters battle.",
   },
   { name: "light metal", description: "Halves the Pokémon's weight. " },
   {
@@ -688,7 +688,7 @@ const abils = [
   {
     name: "protean",
     description:
-      "Changes the Pokémon's type to the type of the move it's about to use. ",
+      "Changes the Pokémon's type to the type of the move it's about to use. Works once after the Pokemon enters battle.",
   },
   {
     name: "psychic surge",
@@ -872,7 +872,7 @@ const abils = [
   { name: "snow cloak", description: "Boosts evasiveness in a hailstorm. " },
   {
     name: "snow warning",
-    description: "The Pokémon summons a hailstorm when it enters a battle. ",
+    description: "The Pokémon summons a snowstorm when it enters a battle. ",
   },
   {
     name: "solar power",
@@ -1167,6 +1167,161 @@ const abils = [
     name: "as one",
     description:
       "This ability combines the effects of both Calyrex's Unnerve ability and Glastrier's/Spectrier's Chilling Neigh/Grim Neigh ability.",
+  },
+  {
+    name: "Anger Shell",
+    description: 
+      "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
+  },
+  {
+    name: "Armor Tail",
+    description: 
+      "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies."
+  },
+  {
+    name: "Beads of Ruin",
+    description: 
+      "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself."
+  },
+  {
+    name: "Commander",
+    description: 
+      "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there."
+  },
+  {
+    name: "Costar",
+    description: 
+      "When the Pokémon enters a battle, it copies an ally's stat changes."
+  },
+  {
+    name: "Cud Chew",
+    description: 
+      "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time."
+  },
+  {
+    name: "Earth Eater",
+    description: 
+      "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage."
+  },
+  {
+    name: "Electromorphosis",
+    description: 
+      "	The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses."
+  },
+  {
+    name: "Good as Gold",
+    description: 
+      "A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves."
+  },
+  {
+    name: "Guard Dog",
+    description: 
+      "Boosts the Pokémon's Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work."
+  },
+  {
+    name: "Hadron Engine",
+    description: 
+      "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain."
+  },
+  {
+    name: "Lingering Aroma",
+    description: 
+      "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma."
+  },
+  {
+    name: "Mycelium Might",
+    description: 
+      "	The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target."
+  },
+  {
+    name: "Opportunist",
+    description: 
+      "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself."
+  },
+  {
+    name: "Orichalcum Pulse",
+    description: 
+      "	Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight."
+  },
+  {
+    name: "Protosynthesis",
+    description: 
+      "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy."
+  },
+  {
+    name: "Purifying Salt",
+    description: 
+      "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
+  },
+  {
+    name: "Quark Drive",
+    description: 
+      "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy."
+  },
+  {
+    name: "Rocky Payload",
+    description: 
+      "Powers up Rock-type moves."
+  },
+  {
+    name: "Seed Sower",
+    description: 
+      "	Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."
+  },
+  {
+    name: "Sharpness",
+    description: 
+      "Powers up slicing moves."
+  },
+  {
+    name: "Supreme Overlord",
+    description: 
+      "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated."
+  },
+  {
+    name: "Sword of Ruin",
+    description: 
+      "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself."
+  },
+  {
+    name: "Tablets of Ruin",
+    description: 
+      "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself."
+  },
+  {
+    name: "Thermal Exchange",
+    description: 
+      "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned."
+  },
+  {
+    name: "Toxic Debris",
+    description: 
+      "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves."
+  },
+  {
+    name: "Vessel of Ruin",
+    description: 
+      "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself."
+  },
+  {
+    name: "Well-Baked Body",
+    description: 
+      "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted."
+  },
+  {
+    name: "Wind Power",
+    description: 
+      "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."
+  },
+  {
+    name: "Wind Rider",
+    description: 
+      "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves."
+  },
+  {
+    name: "Zero to Hero",
+    description: 
+      "The Pokémon transforms into its Hero Form when it switches out."
   },
 ];
 export default abils;

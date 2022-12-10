@@ -1,0 +1,75 @@
+.infoBtn {
+    width: 150px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive !important;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+.statsBtn {
+    color: black;
+    border: 1px solid black;
+}
+.statsBtn:hover {
+    background-color: grey !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem black;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.statsBtn:active,
+.statsBtn.active {
+    background-color: #ffce6d !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem black;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.statsBtn.active:hover {
+    background-color: #dfb35b !important;
+    border: 1px solid #dfb35b;
+}
+.abilBtn {
+    color: #d28cd8;
+    border: 1px solid #d28cd8;
+}
+
+.abilBtn:hover {
+    background-color: #d28cd8 !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem rgb(0, 0, 0);
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.abilBtn:active,
+.abilBtn.active {
+    background-color: #d28cd8 !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem rgb(0, 0, 0);
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.abilBtn.active:hover {
+    background-color: #b36eb9 !important;
+    border: 1px solid #b36eb9;
+}
+
+.movesBtn {
+    color: #00a063;
+    border: 1px solid #00a063;
+}
+.movesBtn:hover {
+    background-color: #00a063 !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem rgb(0, 0, 0);
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.movesBtn:active,
+.movesBtn.active {
+    background-color: #00a063 !important;
+    color: white !important;
+    text-shadow: 0.088rem 0.088rem 0.125rem rgb(0, 0, 0);
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.movesBtn.active:hover {
+    background-color: #026d44 !important;
+    border: 1px solid #026d44;
+}
